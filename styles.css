@@ -1,0 +1,96 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+body{
+  display:flex;
+  background-image:linear-gradient(powderblue, lavender);
+  justify-content: center;
+}
+.second{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin:20px;
+
+}
+.title{
+padding:30px;
+font-size: 40px;
+font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.button{
+  display: flex;
+  font-size: 40px;
+  width: 300px;
+  justify-content: center;
+  padding:10px;
+  border-radius: 15px;
+  height:140px;
+
+}
+
+.travelHere{
+  font-size:30px;
+  padding:20px;
+  font-family: 'Mukta', sans-serif;
+  margin-top: 25px;
+
+}
+
+.goHere{
+  font-size:30px;
+  padding:20px;
+  font-family: 'Mukta', sans-serif;
+}
+
+.titletwo{
+  padding: 30px;
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.buttontwo{
+  display: flex;
+  font-size: 40px;
+  width: 300px;
+  justify-content: center;
+  padding:10px;
+  border-radius: 15px;
+  height: 140px;
+   margin: 30px;
+}
+img{
+  display:flex;
+  align-self: center;
+  margin:0px;
+  padding:0px;
+  height: 300px
+}
+
+.first{
+  display:flex;
+  flex-direction: column;
+align-items: center;
+margin:20px;
+}
+
+/* #animate {
+float: left;
+} */
+
+@media screen and (max-width 600px){
+  body{
+  display: flex;
+  flex-direction: column;
+  }
+}
+
+@keyframes animation-name{
+    0%{CSS}
+    50%{CSS}
+    100%{CSS}
+} 
